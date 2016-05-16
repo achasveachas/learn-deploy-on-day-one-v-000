@@ -132,6 +132,40 @@ a:visited {
   display: block;
   height: 400px;
 }
+
+#yechiel-k-cover {
+  background-image: url("../assets/img/yechiel-k-cover.jpg");
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#yechiel-k-cover:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#yechiel-k-card {
+  background-image: url("../assets/img/yechiel-k.jpg");
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#yechiel-k-card:hover {
+  border: 3px #63bedc solid;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 #juan-rivera-cover {
     background-image: url("../assets/img/juan-rivera-cover.jpg")
 }
